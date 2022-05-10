@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+body{
+    background-color: #101010;
+}
+.navbar-toggler-icon{
+    background-color: #ff984e;
+    border-radius: 5px;
+}
+
+.bg-light{
+    background-color: #101010!important;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, .3);
+   
+    z-index: 2;
+}
+
+
+.navbar-light .navbar-nav .nav-link{
+    color: #ff984e; 
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+}
+.navbar-light .navbar-nav .nav-link:hover, .nav-link:focus{
+    color: #ff984e73;
+    padding-bottom: 5px;
+    border-bottom: #ff984e73 solid 2px;
+    
+    transition-duration: 0.2s;
+
+}
+.logo{
+    width: 150px;
+    height: 150px;
+}
+body{
+    margin: 0;
+    padding:0;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #101010;
+    margin-top: -30px;
+  }
+  
+  header{
+   
+      margin-top: 20px;
+    
+    background: rgba(0, 0, 0, 0.7) url(salle3.jpg);
+  background-position: center;
+    color: rgb(255, 255, 255);
+    text-align:center;
+    background-repeat: no-repeat;
+background-size: cover;
+background-blend-mode: darken;
+}
+
+header nav{
+    
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    
+    padding-bottom: 0;
+    color:#6b9fbd;;
+    background-color: #101010;
+    font-size: 20px;
+    
+    
+  }
+  
+  header div a {
+    
+    color:#ff984e;
+    text-decoration:none;
+    margin-right:10px;
+    padding-top: 55px;
+  }
+  
+  header nav img{
+      width: 150px;
+  }
+ 
+  
+  
+  header nav .onglets a:hover {
+    
+    border-bottom: #ff984e solid 2px;
+    
+    transition-duration: 0.2s;
+  }
+
+body{
+  background: rgba(0, 0, 0, 0.7) url("../../images/hotel.jpg");
+  background-position: center; 
+  background-repeat: no-repeat;
+  padding: 0 10px;
+}
+.wrapper{
+  max-width: 500px;
+  width: 100%;
+  background: #202020;
+  margin: 50px auto;
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.125);
+  padding: 30px;
+}
+
+.wrapper .title{
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 25px;
+  color: #ff984e;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.wrapper .form{
+  width: 100%;
+}
+
+.wrapper .form .inputfield{
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.wrapper .form .inputfield label{
+    font-weight: 900;
+   width: 200px;
+   color: #82512d;
+   margin-right: 10px;
+  font-size: 14px;
+}
+.wrapper .form .inputfield .custom_select{
+    position: relative;
+    width: 100%;
+    height: 37px;
+  }
+  
+  .wrapper .form .inputfield .custom_select:before{
+    content: "";
+    position: absolute;
+    top: 12px;
+    right: 10px;
+    border: 8px solid;
+    border-color: #d5dbd9 transparent transparent transparent;
+    pointer-events: none;
+  }
+  
+  .wrapper .form .inputfield .custom_select select{
+    -webkit-appearance: none;
+    -moz-appearance:   none;
+    appearance:        none;
+    outline: none;
+    width: 100%;
+    height: 100%;
+    border: 0px;
+    padding: 8px 10px;
+    font-size: 15px;
+    border: 1px solid #d5dbd9;
+    border-radius: 3px;
+  }
+.wrapper .form .inputfield .input,
+.wrapper .form .inputfield .textarea{
+  width: 100%;
+  outline: none;
+  border: 1px solid #d5dbd9;
+  font-size: 15px;
+  padding: 8px 10px;
+  border-radius: 3px;
+  transition: all 0.3s ease;
+}
+
+.wrapper .form .inputfield .textarea{
+  width: 100%;
+  height: 125px;
+  resize: none;
+}
+
+.wrapper .form .inputfield .custom_select{
+  position: relative;
+  width: 100%;
+  height: 37px;
+}
+
+.wrapper .form .inputfield .custom_select:before{
+  content: "";
+  position: absolute;
+  top: 12px;
+  right: 10px;
+  border: 8px solid;
+  border-color: #d5dbd9 transparent transparent transparent;
+  pointer-events: none;
+}
+
+.wrapper .form .inputfield .custom_select select{
+  -webkit-appearance: none;
+  -moz-appearance:   none;
+  appearance:        none;
+  outline: none;
+  width: 100%;
+  height: 100%;
+  border: 0px;
+  padding: 8px 10px;
+  font-size: 15px;
+  border: 1px solid #d5dbd9;
+  border-radius: 3px;
+}
+
+
+.wrapper .form .inputfield .input:focus,
+.wrapper .form .inputfield .textarea:focus,
+.wrapper .form .inputfield .custom_select select:focus{
+  border: 3px solid #ff984e;
+}
+
+.wrapper .form .inputfield p{
+   font-size: 14px;
+   color: #82512d;
+}
+.wrapper .form .inputfield .check{
+  width: 15px;
+  height: 15px;
+  position: relative;
+  display: block;
+  cursor: pointer;
+}
+.wrapper .form .inputfield .check input[type="checkbox"]{
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+.wrapper .form .inputfield .check .checkmark{
+  width: 15px;
+  height: 15px;
+  border: 1px solid #ff984e;
+  display: block;
+  position: relative;
+}
+.wrapper .form .inputfield .check .checkmark:before{
+  content: "";
+  position: absolute;
+  top: 1px;
+  left: 2px;
+  width: 5px;
+  height: 2px;
+  border: 2px solid;
+  border-color: transparent transparent #fff #fff;
+  transform: rotate(-45deg);
+  display: none;
+}
+.wrapper .form .inputfield .check input[type="checkbox"]:checked ~ .checkmark{
+  background: #ff984e;
+}
+
+.wrapper .form .inputfield .check input[type="checkbox"]:checked ~ .checkmark:before{
+  display: block;
+}
+
+.wrapper .form .inputfield .btn{
+  width: 100%;
+   padding: 8px 10px;
+  font-size: 15px; 
+  border: 0px;
+  background:  #ff984e;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 3px;
+  outline: none;
+}
+
+.wrapper .form .inputfield .btn:hover{
+  background: #ff984e;
+}
+
+.wrapper .form .inputfield:last-child{
+  margin-bottom: 0;
+}
+.inputfield.terms a{
+  color: #ff984e;
+}
+.copyright {
+  text-align: center;
+  color: rgba(128, 128, 128, 0.75);
+  font-size: 0.8em;
+  cursor: default;
+}
+
+ .copyright a {
+    color: rgba(128, 128, 128, 0.75);
+  }
+
+    .copyright a:hover {
+      color: #c0a194;
+    }
+    .btn-5 {
+      background-color: rgb(168, 167, 167);
+    text-align: center;
+    
+    padding: 15px 40px;
+    border: 1px solid #fff;
+    cursor: pointer;
+    letter-spacing: 2px;
+    position:relative;
+    overflow:hidden;
+    margin: 0 20px;
+  }
+  
+  .btn-5:before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 0;
+    background : #fff;
+    left: 0;
+    bottom: 0;
+    transition: all .3s;
+    opacity: 0.3;
+  }
+  
+  .btn-5:hover:before {
+    width: 100%;
+  }
+
+@media (max-width:420px) {
+  .wrapper .form .inputfield{
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .wrapper .form .inputfield label{
+    margin-bottom: 5px;
+  }
+  .wrapper .form .inputfield.terms{
+    flex-direction: row;
+  }
+}
