@@ -225,44 +225,43 @@ a.btn-5:hover{
     font-size: 50px;
 }
 
+
 footer {
-  background-color: #101010;
-  padding: 30px;
-  color: #fff;
-  display: flex;
-  flex-wrap:wrap;
-  justify-content: space-between;
-}
-
-footer .social-media{
-  display: flex;
-}
-
-footer .social-media p{
-    margin-right: 15px;
-    border: 1px solid #fff;
-    border-radius: 100%;
-    padding: 5px;
-    text-align:center;
-    width: 20px;
-    cursor:pointer;
+    
+    background-color: #101010;
+    padding: 30px;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
   }
-
-footer a{
-  color: #fff;
-  text-decoration: transparent;
-}
-footer a:hover{
   
-  color: rgb(255, 255, 255);
-  text-decoration: none;
+  footer .social-media{
+    display: flex;
+  }
   
-}
-footer p:hover{
-    border-bottom: #fff solid 2px;
+  footer .social-media p{
+    font-size: 20px;
+    padding: 5px;
+    text-align: center;
+    cursor: pointer;
+    }
+  
+  footer a{
+    color: #fff;
+    text-decoration: transparent;
+  }
+  footer a:hover{
+    
     color: rgb(255, 255, 255);
     text-decoration: none;
-}
+    
+  }
+  footer p:hover{
+      border-bottom: #fff solid 2px;
+      color: rgb(255, 255, 255);
+      text-decoration: none;
+  }
 @media screen and (max-width: 1000px) {
     header .principal h1{
        font-size: 50px;
